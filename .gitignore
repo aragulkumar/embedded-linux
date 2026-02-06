@@ -1,0 +1,21 @@
+# ===== Kernel build artifacts =====
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+modules.order
+
+# Kbuild internal files
+*.cmd
+.*.cmd
+
+# Kernel source (never commit)
+rpi_source/
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
